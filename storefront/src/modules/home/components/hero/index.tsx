@@ -18,21 +18,21 @@ const Hero = () => {
       <div className="absolute inset-0 z-1 flex flex-col justify-center items-center text-center small:p-32 gap-6">
         <span>
           <p className="text-neutral-600 text-xs uppercase">
-            Be light on your feet
+            IT 项目管理
           </p>
 
           <Heading
             level="h1"
             className="text-6xl leading-10 text-ui-fg-base font-normal mt-10 mb-5"
           >
-            Portable Bestsellers
+            B2B 商务模式支付与结算系统
           </Heading>
 
           <p className="leading-10 text-ui-fg-subtle font-normal text-lg">
-            See our widest selection of electronics
+            致力于为企业提供一站式的支付与结算解决方案
           </p>
         </span>
-        <a
+        {/* <a
           href="https://github.com/medusajs/nextjs-starter-medusa"
           target="_blank"
         >
@@ -40,7 +40,7 @@ const Hero = () => {
             <Github />
             Github Repository
           </Button>
-        </a>
+        </a> */}
       </div>
     </div>
   )
